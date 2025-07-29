@@ -1,0 +1,94 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portfolio</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="{% url 'projects' %}" class="nav-link active">Projects</a></li>
+                <li><a href="{% url 'about' %}" class="nav-link">About</a></li>
+                <li><a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="content">
+        <h1>Projects</h1>
+        
+        <div class="projects-intro">
+            <p class="intro-text">💼 I build solutions that blend logic, design, and a bit of fun — whether it's scripting a smart shopping simulator or crafting visuals that drive decisions. Here are two standout projects that showcase my development and analytical mindset:</p>
+        </div>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-header">
+                    <h2>🛒 Market CGI – Python Console App</h2>
+                    <p class="project-description">A witty and interactive shopping simulation built entirely with Python, designed to offer a smooth and engaging user experience in the terminal.</p>
+                </div>
+                
+                <div class="project-highlights">
+                    <h3>Highlights:</h3>
+                    <ul>
+                        <li>Category-based market interface (Fruits, Dairy, Snacks, etc.)</li>
+                        <li>Add/remove items or entire categories with real-time cart updates</li>
+                        <li>JSON receipt generated at checkout with item summary</li>
+                        <li>Emoji-rich feedback and humorous prompts for enhanced UX</li>
+                        <li>Includes cart summary, order confirmation, and error handling</li>
+                    </ul>
+                </div>
+                
+                <div class="project-footer">
+                    <div class="tech-stack">
+                        <strong>Tech Stack:</strong> Python (CLI logic, JSON handling, input validation)
+                    </div>
+                    <div class="project-link">
+                        <a href="https://github.com/Vaibhav07-M/PyVerse_Summer_Internship/blob/main/Mini%20Project%20(Market)/market.py" target="_blank" class="source-link">📂 Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-divider"></div>
+
+            <div class="project-card">
+                <div class="project-header">
+                    <h2>🍕 Power BI Pizza Sales Dashboard</h2>
+                    <p class="project-description">An intuitive dashboard built in Power BI to uncover insights from pizza sales data. Designed to be clear, clickable, and story-driven for business users.</p>
+                </div>
+                
+                <div class="project-highlights">
+                    <h3>Core Skills Demonstrated:</h3>
+                    <ul>
+                        <li>Data Cleaning & Modeling</li>
+                        <li>DAX for calculated measures and filters</li>
+                        <li>Visualizations with bar charts, line graphs, and KPI cards</li>
+                        <li>UX/UI layout for intuitive navigation</li>
+                        <li>Trend analysis across categories, sizes, and time periods</li>
+                    </ul>
+                    
+                    <h3>Dashboard Features:</h3>
+                    <ul>
+                        <li>Time-based analysis (daily/monthly)</li>
+                        <li>Category and size comparisons</li>
+                        <li>Bestseller/low performer insights</li>
+                        <li>Interactive filters for user-led exploration</li>
+                        <li>Responsive design tailored for decision-makers</li>
+                    </ul>
+                </div>
+                
+                <div class="project-footer">
+                    <div class="tech-stack">
+                        <strong>Tech Stack:</strong> Power BI, Excel, DAX
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
