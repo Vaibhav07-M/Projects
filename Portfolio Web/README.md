@@ -18,18 +18,6 @@ Portfolio_Static/
 1. Simply open `index.html` in any web browser
 2. Navigate using the top navigation menu
 
-### Option 2: Local Server (Recommended)
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx http-server
-
-# Using PHP
-php -S localhost:8000
-```
-Then visit: `http://localhost:8000`
 
 ## ✨ Features
 - **Responsive Design**: Works on desktop, tablet, and mobile
@@ -90,6 +78,7 @@ This is converted from my Django portfolio project that includes:
 
 ---
 
-**Created by Vaibhav Maurya**  
-Second-year Engineering Student at Shree L.R Tiwari College of Engineering  
-📧 mauryavaibhav2007@gmail.com
+**Created by Vaibhav Maurya**    
+- 📧 Email: mauryavaibhav2007@gmail.com
+- 💼 GitHub: [Vaibhav07-M](https://github.com/Vaibhav07-M)
+- 🔗 LinkedIn: [vaibhav-mavex](https://www.linkedin.com/in/vaibhav-mavex/)
